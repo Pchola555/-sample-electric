@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 10px;
+  color: #241654;
+  font-family: 'Arial', sans-serif;
+}
+main {
+  background: #fff url(../img/banner.png) top center no-repeat;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+.content {
+  background: #fff;
+  padding-bottom: 5rem;
+}
+.price-content {
+  background: #fff url(../img/banner.png) top center no-repeat;
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+}
+a {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  text-decoration: none;
+  color: #241654;
+  opacity: 0.9;
+}
+.header {
+  height: 10rem;
+}
+.logo {
+  display: inline-block;
+  height: 10rem;
+  line-height: 10rem;
+}
+.logo-img {
+  width: 5rem;
+  height: 7rem;
+  display: inline-block;
+  vertical-align: middle;
+  }
+.logo-header {
+  margin: 0;
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.phone {  
+  line-height: 100px;  
+  position: relative;
+}
+.phone::before{
+  content: '';
+  width: 5rem;
+  height: 2.7rem;
+  position: absolute;
+  top: 50%;
+  left: -50px;
+  transform: translateY(-50%);
+  background-image: url(../img/call_phone_icon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}   
+.wrap {
+  display: table;
+  width: 100%;
+  height: 10rem;
+}
+.wrap-wrap {
+ display: table-cell;
+ vertical-align: middle;
+ text-align: center;
+}
+.header-btn {
+  width: 20rem;
+  height: 5rem;
+  border-radius: 2rem;
+  padding: 1rem auto;
+  font-size: 1.4rem;
+  font-weight: 500;
+  background: #241654;
+  opacity: 0.8;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+.header-btn:hover {
+  background: #241654;
+  opacity: 0.9;
+  color: rgb(187, 184, 184);
+  border: none;
+}
+.info-title,
+.service-title,
+.reatures-title{
+  text-align: right;
+  margin: 0;
+  font-weight: 900;
+  margin-bottom: 3rem;
+}
+.info-content {
+  text-align: right;
+  margin-bottom: 4rem;
+  font-size: 2rem;
+  line-height: 1,5rem;
+}
+.parallax-slider {
+  width: 95rem;
+ }
+
+.parallax-slider-slide {
+  padding-left: 5rem;
+  }
+.slide-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.slide-info {
+  font-size: 1.8rem;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+ color: rgba(0, 0, 0, 0.5);
+ font-size: 4rem
+}
+.swiper-pagination-bullet{
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.features {
+  margin-top: 5rem;
+}
+.feature-img {
+  display: inline-block;
+  text-align: center;
+}
+.feature-info {
+  display: inline-block;
+  text-align: center;
+  margin-top: 2rem;
+}
+.feature-info h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.feature-info p {
+  margin: 1rem 0 0 0;
+  font-size: 1.6rem;
+}
+.price-header {
+  height: 10rem;
+  
+}
+.price-title {
+  margin: 0;
+  font-weight: 900;
+  text-align: right;
+  vertical-align: middle;
+  height: 10rem;
+  line-height: 10rem;
+}
+.price-box {
+  background: #fff;
+}
