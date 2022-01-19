@@ -3,11 +3,11 @@
 }
 body {
   font-size: 10px;
-  color: #241654;
+  color: #0774f1;
   font-family: 'Arial', sans-serif;
 }
 main {
-  background: radial-gradient(circle farthest-corner at 100px 50px, #fff, #CAE4D8);
+  background: radial-gradient(circle farthest-corner at 100px 50px, #fff, #000);
   padding-top: 2rem;
   padding-bottom: 5rem;
 }
@@ -16,9 +16,25 @@ main {
   padding-bottom: 5rem;
 }
 .price-content {
+  
   background: #fff url(../img/banner.png) top center no-repeat;
   padding-bottom: 5rem;
   padding-top: 2rem;
+}
+.information {
+  background: #fff;
+  padding-top: 5rem;
+}
+.application {
+  background: radial-gradient(circle farthest-corner at 100px 50px, #fff, #000);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+.footer {
+  padding: 3rem 0 1rem 0;
+  background: #000;
+  color:#fff;
 }
 a {
   font-size: 2.5rem;
@@ -28,7 +44,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: #241654;
+  color: #0774f1;
   opacity: 0.9;
 }
 .header {
@@ -78,30 +94,99 @@ a:hover {
  vertical-align: middle;
  text-align: center;
 }
-.header-btn {
-  width: 20rem;
+.header-btn,
+.price-btn,
+.btn-application {
+  width: 22rem;
   height: 5rem;
   border-radius: 2rem;
   padding: 1rem auto;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 500;
-  background: #241654;
+  background: #0774f1;
   opacity: 0.8;
   color: #fff;
   text-transform: uppercase;
   border: none;
   cursor: pointer;
 }
-.header-btn:hover {
-  background: #241654;
+.header-btn:hover, 
+.btn-form:hover,
+.price-btn:hover,
+.btn-application:hover {
+  background: #053a77;
   opacity: 0.9;
   color: rgb(187, 184, 184);
   border: none;
   box-shadow: 5px 10px 20px rgba(0,0,0,0.3), -5px -10px 20px rgba(253, 255, 253, 0.5);
 }
-.info-title,
-.service-title,
-.reatures-title{
+.offer {
+  margin-top: 5rem;
+}
+.offer-title h2{
+  margin: 0 0 2rem 0;
+  padding: 0;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.offer-info {
+  display: inline-block;
+}
+.offer-info p {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.offer-info span {
+  font-size: 4rem;
+}
+.offer-form {
+  margin-top: 3rem;
+  width: 30rem;
+  text-align: center;
+}
+.form {
+  text-align: center;
+}
+.offer-form p {  
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.offer-form input {
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  display: block;
+  width: 100%;
+  height: 5rem;
+  font-size: 1.4rem;
+  border: 1px solid  #0774f1;
+  border-radius: 2rem;  
+}
+.btn-form {
+  width: 20rem;
+  height: 5rem;
+  font-size: 1.8rem;
+  border-radius: 2rem;
+  background: #0774f1;
+  opacity: 0.8;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+.offer-img {
+  overflow: hidden;
+}
+.service {
+  margin-top: 10rem;
+}
+.service-title {
+  margin: 0;
+  color: #ddd8d8;
+  font-weight: 900;
+  margin-bottom: 3rem;
+}
+
+.info-title {
   text-align: right;
   margin: 0;
   font-weight: 900;
@@ -119,6 +204,7 @@ a:hover {
 
 .parallax-slider-slide {
   padding-left: 5rem;
+  color:#ddd8d8;
   }
 .slide-title {
   font-size: 3rem;
@@ -129,7 +215,7 @@ a:hover {
 }
 .swiper-button-prev::after,
 .swiper-button-next::after {
- color: rgba(0, 0, 0, 0.5);
+ color: #0044ff;
  font-size: 4rem
 }
 .swiper-pagination-bullet{
@@ -141,6 +227,12 @@ a:hover {
 }
 .features {
   margin-top: 5rem;
+}
+.reatures-title {
+  text-align: center;
+  margin: 0;
+  font-weight: 900;
+  margin-bottom: 3rem;
 }
 .feature-box {
   margin-top: 2rem;
@@ -218,4 +310,39 @@ a:hover {
   height:3rem;
   width: 1.6rem;
   vertical-align: middle;
+  }
+  .application-form h3 {  
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+  }
+  .application-form input {
+    margin: 2rem auto;
+    padding-left: 1rem;
+    display: block;
+    width: 50%;
+    height: 5rem;
+    font-size: 2rem;
+    border: 1px solid  #0774f1;
+    border-radius: 2rem;  
+  }
+  .footer-right p {
+    display: inline-block;
+    margin-right: 0.2rem;
+    text-transform: uppercase;
+  }
+  .footer-phone {
+    color:#fff;
+    font-size: 1rem;
+    font-weight: normal;
+    display: inline-block;
+  }
+  .footer-phone:hover {
+    color: #0774f1;
+    font-weight: 700;
+  }
+  .footer-box {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
   }
